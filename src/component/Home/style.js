@@ -1,0 +1,38 @@
+import styled from 'styled-components';
+import Background from './background.jpg';
+
+export const HomeContainer = styled.div`
+  width: 100%;
+  height: 100vh;
+  background-image: url(${Background});
+  color: white;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: IBM Plex Sans KR;
+`;
+
+export const Intro = styled.div`
+  font-size: 48px;
+`;
+
+export const Name = styled.span`
+  color: #e21a6d;
+`;
+
+export const Button = styled.div`
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 16px;
+
+  & div {
+    width: 256px;
+    height: 48px;
+    border: 3px solid white;
+    font-size: 24px;
+    line-height: 48px;
+  }
+`;
