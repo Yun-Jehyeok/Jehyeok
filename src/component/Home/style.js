@@ -11,7 +11,6 @@ export const HomeContainer = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-family: IBM Plex Sans KR;
 `;
 
 export const Intro = styled.div`
