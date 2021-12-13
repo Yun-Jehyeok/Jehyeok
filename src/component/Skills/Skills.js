@@ -4,7 +4,7 @@ import { Background, SkillsHeader } from './style';
 
 function Skills() {
   return (
-    <Background>
+    <Background id="skills">
       <Container>
         <SkillsHeader>SKILLS</SkillsHeader>
         <BorderBottom></BorderBottom>

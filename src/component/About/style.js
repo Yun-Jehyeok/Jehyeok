@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutHeader = styled.h2`
   display: inline-block;
-  font-size: 48px;
+  font-size: 42px;
 `;
 
 export const AboutMe = styled.h2`
