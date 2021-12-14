@@ -13,8 +13,6 @@ export const NavContainer = styled.nav`
 
   display: flex;
   align-items: center;
-
-  transition: all 0.5s;
 `;
 
 export const NavItemBox = styled.div`
@@ -22,8 +20,15 @@ export const NavItemBox = styled.div`
   justify-content: flex-start;
   margin-left: 10%;
 
+  transition: all 0.5s;
+
   & div {
     color: white;
     margin-right: 48px;
+    cursor: pointer;
+
+    &:hover {
+      color: #e21a6d;
+    }
   }
 `;

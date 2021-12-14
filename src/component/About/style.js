@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutHeader = styled.h2`
+  text-align: center;
   display: inline-block;
   font-size: 42px;
 `;
