@@ -17,50 +17,14 @@ function Skills() {
             justifyContent: 'space-between',
           }}
         >
-          <div style={{ borderBottom: '4px solid #1990ff', padding: '16px' }}>
-            <img src="https://img.icons8.com/office/120/000000/computer.png" />
-            <div
-              style={{
-                textAlign: 'center',
-                fontSize: '24px',
-              }}
-            >
-              <b>React.js</b>
-            </div>
-          </div>
-          <div style={{ borderBottom: '4px solid #1990ff', padding: '16px' }}>
-            <img src="https://img.icons8.com/office/120/000000/computer.png" />
-            <div
-              style={{
-                textAlign: 'center',
-                fontSize: '24px',
-              }}
-            >
-              <b>Node.js</b>
-            </div>
-          </div>
-          <div style={{ borderBottom: '4px solid #1990ff', padding: '16px' }}>
-            <img src="https://img.icons8.com/office/120/000000/computer.png" />
-            <div
-              style={{
-                textAlign: 'center',
-                fontSize: '24px',
-              }}
-            >
-              <b>TypeScript</b>
-            </div>
-          </div>
-          <div style={{ borderBottom: '4px solid #1990ff', padding: '16px' }}>
-            <img src="https://img.icons8.com/office/120/000000/computer.png" />
-            <div
-              style={{
-                textAlign: 'center',
-                fontSize: '24px',
-              }}
-            >
-              <b>RN</b>
-            </div>
-          </div>
+          <div
+            style={{
+              width: '114px',
+              height: '114px',
+              borderRadius: '30px',
+              backgroundColor: 'white',
+            }}
+          ></div>
         </div>
       </Container>
     </Background>
