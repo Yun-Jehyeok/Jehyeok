@@ -1,16 +1,18 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import { BorderBottom, Container } from '../Style/style';
-import { AboutHeader, AboutMe, Description } from './style';
+import { BorderBottom, Container, Header } from '../Style/style';
+import { AboutMe, Description } from './style';
 
 function About() {
   return (
     <div id="about">
       <Navbar />
       <Container id="first">
-        <AboutHeader>ABOUT</AboutHeader>
-        <BorderBottom></BorderBottom>
-        <AboutMe>"개발이 재밌습니다"</AboutMe>
+        <Header>ABOUT</Header>
+        <BorderBottom>
+          <div></div>
+        </BorderBottom>
+        <AboutMe>Live like the way I develop</AboutMe>
         <Description>
           대학 생활에는 별로 흥미를 느끼지 못했던 제가 처음으로 흥미를 느낀
           과목이 &nbsp;

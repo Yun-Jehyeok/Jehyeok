@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
-export const AboutHeader = styled.h2`
+export const AboutHeader = styled.div`
   text-align: center;
-  display: inline-block;
   font-size: 42px;
+  font-weight: bold;
 `;
 
-export const AboutMe = styled.h2`
-  margin-top: 32px;
+export const AboutMe = styled.h3`
+  text-align: center;
+  color: #ff4d4e;
 `;
 
 export const Description = styled.div`

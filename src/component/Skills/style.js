@@ -6,6 +6,6 @@ export const Background = styled.div`
 `;
 
 export const SkillsHeader = styled.h2`
-  display: inline-block;
   font-size: 42px;
+  text-align: center;
 `;

@@ -1,13 +1,15 @@
 import React from 'react';
-import { BorderBottom, Container } from '../Style/style';
-import { Background, SkillsHeader } from './style';
+import { BorderBottom, Container, Header } from '../Style/style';
+import { Background } from './style';
 
 function Skills() {
   return (
     <Background id="skills">
       <Container>
-        <SkillsHeader>SKILLS</SkillsHeader>
-        <BorderBottom></BorderBottom>
+        <Header>SKILLS</Header>
+        <BorderBottom>
+          <div></div>
+        </BorderBottom>
         <div
           style={{
             width: '70%',

@@ -1,10 +1,14 @@
 import React from 'react';
+import { BorderBottom, Container, Header } from '../Style/style';
 
 function Blog() {
   return (
-    <div style={{ width: '100%', height: '100vh' }} id="blog">
-      Blog
-    </div>
+    <Container id="blog">
+      <Header>BLOG</Header>
+      <BorderBottom>
+        <div></div>
+      </BorderBottom>
+    </Container>
   );
 }
 

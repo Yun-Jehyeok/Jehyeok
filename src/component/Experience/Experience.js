@@ -1,10 +1,14 @@
 import React from 'react';
+import { BorderBottom, Container, Header } from '../Style/style';
 
 function Experience() {
   return (
-    <div style={{ width: '100%', height: '100vh' }} id="experience">
-      Experience
-    </div>
+    <Container id="experience">
+      <Header>Experience</Header>
+      <BorderBottom>
+        <div></div>
+      </BorderBottom>
+    </Container>
   );
 }
 

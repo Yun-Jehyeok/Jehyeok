@@ -1,4 +1,13 @@
 import React from 'react';
+import { BorderBottom, Header } from '../Style/style';
+import {
+  Github,
+  LeftSide,
+  Project,
+  ProjectsContainer,
+  ProjectWrap,
+  RightSide,
+} from './style';
 
 const projectList = [
   {
@@ -27,71 +36,29 @@ const projectList = [
 
 function Projects() {
   return (
-    <div
-      style={{
-        width: '100%',
-        minHeight: '100vh',
-        padding: '96px 0',
-        backgroundColor: '#6BD9B1',
-      }}
-      id="projects"
-    >
-      <div
-        style={{
-          color: 'white',
-          textAlign: 'center',
-          fontSize: '30pt',
-          fontWeight: 'bold',
-        }}
-      >
-        Projects
-      </div>
+    <ProjectsContainer id="projects">
+      <Header style={{ color: 'white' }}>PROJECTS</Header>
+      <BorderBottom>
+        <div style={{ backgroundColor: 'white' }}></div>
+      </BorderBottom>
       {projectList.map((project) => (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            marginTop: '32px',
-          }}
-          key={project.id}
-        >
-          <div
-            style={{
-              width: '720px',
-              height: '360px',
-              backgroundColor: 'white',
-              display: 'flex',
-              justifyContent: 'space-between',
-            }}
-          >
-            <div style={{ width: '50%' }}>
-              <img
-                src="http://placehold.it/300/300/any"
-                style={{ width: '100%', height: '360px' }}
-              />
-            </div>
-            <div
-              style={{
-                width: '50%',
-                padding: '32px',
-              }}
-            >
+        <ProjectWrap key={project.id}>
+          <Project>
+            <LeftSide>
+              <img src="http://placehold.it/300/300/any" />
+            </LeftSide>
+            <RightSide>
               <h1>{project.title}</h1>
               <div>{project.description}</div>
               <h4>{project.stack}</h4>
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: 'black', textDecoration: 'none' }}
-              >
+              <Github href={project.url} target="_blank" rel="noreferrer">
                 깃허브에서 확인하기
-              </a>
-            </div>
-          </div>
-        </div>
+              </Github>
+            </RightSide>
+          </Project>
+        </ProjectWrap>
       ))}
-    </div>
+    </ProjectsContainer>
   );
 }
 
