@@ -1,5 +1,5 @@
 import React from 'react';
-import { BorderBottom, Header } from '../Style/style';
+import { BorderBottom, Header } from 'component/Style/style';
 import {
   Github,
   LeftSide,
@@ -9,6 +9,10 @@ import {
   RightSide,
 } from './style';
 
+import SMission from 'img/s-mission.png';
+import Memories from 'img/memories.png';
+import Capstone from 'img/capstone.png';
+
 const projectList = [
   {
     id: 0,
@@ -16,6 +20,7 @@ const projectList = [
     description: '사이드 프로젝트 커뮤니티 및 관리',
     stack: '#React #Redux #Styled-Component #Node.js #MongoDB',
     url: 'https://github.com/Yun-Jehyeok/s-mission',
+    img: SMission,
   },
   {
     id: 1,
@@ -23,6 +28,7 @@ const projectList = [
     description: '국가 유공자 분들을 위한 웹앨범 및 굿즈 판매 사이트',
     stack: '#React #Redux #Styled-Component #Node.js #MongoDB',
     url: 'https://github.com/Yun-Jehyeok/memories',
+    img: Memories,
   },
   {
     id: 2,
@@ -31,6 +37,7 @@ const projectList = [
       '캡스톤 디자인으로 진행한 프로젝트로 대학 내 스케줄 관리 및 시설의 대관과 예약 서비스를 제공하고 ESL 기기와의 연동을 통해 문서 현판을 대체한 프로젝트',
     stack: '#React #Redux #Styled-Component',
     url: 'https://github.com/Yun-Jehyeok/UFMS-Capstone/tree/main',
+    img: Capstone,
   },
 ];
 
@@ -45,7 +52,7 @@ function Projects() {
         <ProjectWrap key={project.id}>
           <Project>
             <LeftSide>
-              <img src="http://placehold.it/300/300/any" />
+              <img src={project.img} />
             </LeftSide>
             <RightSide>
               <h1>{project.title}</h1>

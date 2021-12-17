@@ -1,5 +1,5 @@
 import React from 'react';
-import { BorderBottom, Container, Header } from '../Style/style';
+import { BorderBottom, Container, Header } from 'component/Style/style';
 
 function Experience() {
   return (

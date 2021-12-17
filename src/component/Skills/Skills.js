@@ -1,6 +1,29 @@
 import React from 'react';
-import { BorderBottom, Container, Header } from '../Style/style';
-import { Background } from './style';
+import { BorderBottom, Container, Header } from 'component/Style/style';
+import { Background, ImgContainer, SkillList } from './style';
+import HtmlImg from 'img/html-logo.png';
+import CssImg from 'img/css-logo.png';
+import JsImg from 'img/js-logo.png';
+import ReactImg from 'img/react-logo.png';
+import NodeImg from 'img/node-logo.jpeg';
+
+const logoImg = [
+  {
+    imgSrc: HtmlImg,
+  },
+  {
+    imgSrc: CssImg,
+  },
+  {
+    imgSrc: JsImg,
+  },
+  {
+    imgSrc: ReactImg,
+  },
+  {
+    imgSrc: NodeImg,
+  },
+];
 
 function Skills() {
   return (
@@ -10,24 +33,13 @@ function Skills() {
         <BorderBottom>
           <div></div>
         </BorderBottom>
-        <div
-          style={{
-            width: '70%',
-            marginLeft: '15%',
-            marginTop: '64px',
-            display: 'flex',
-            justifyContent: 'space-between',
-          }}
-        >
-          <div
-            style={{
-              width: '114px',
-              height: '114px',
-              borderRadius: '30px',
-              backgroundColor: 'white',
-            }}
-          ></div>
-        </div>
+        <SkillList>
+          {logoImg.map((img) => (
+            <ImgContainer>
+              <img src={img.imgSrc} />
+            </ImgContainer>
+          ))}
+        </SkillList>
       </Container>
     </Background>
   );
