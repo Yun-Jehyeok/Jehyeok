@@ -16,8 +16,8 @@ function Home() {
           <br />
           I'm a Front-End web developer.
         </Intro>
-        <Button onClick={onClick}>
-          <div>View my work</div>
+        <Button>
+          <div onClick={onClick}>View my work</div>
         </Button>
       </div>
     </HomeContainer>

@@ -25,7 +25,6 @@ export const Name = styled.span`
 export const Button = styled.div`
   display: flex;
   justify-content: center;
-  cursor: pointer;
   margin-top: 16px;
 
   & div {
@@ -34,6 +33,7 @@ export const Button = styled.div`
     border: 3px solid white;
     font-size: 24px;
     line-height: 48px;
+    cursor: pointer;
 
     transition: all 0.5s;
 
