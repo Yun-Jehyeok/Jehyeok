@@ -9,7 +9,7 @@ function Home() {
   };
 
   return (
-    <HomeContainer>
+    <HomeContainer id="home">
       <div>
         <Intro>
           Hello, I'm <Name>Yun Jehyeok</Name>.

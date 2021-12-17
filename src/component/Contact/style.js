@@ -28,3 +28,13 @@ export const ContactWrap = styled.div`
     color: #04c2c9;
   }
 `;
+
+export const UpArrow = styled.img`
+  cursor: pointer;
+  position: fixed;
+  bottom: ${(props) => props.home};
+
+  &:hover {
+    margin-bottom: 8px;
+  }
+`;
