@@ -35,7 +35,8 @@ function Skills() {
         </BorderBottom>
         <SkillList>
           {logoImg.map((img) => (
-            <ImgContainer>
+            <ImgContainer imgsrc={img.imgSrc}>
+              <div></div>
               <img src={img.imgSrc} />
             </ImgContainer>
           ))}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ContactContainer, ContactHeader, ContactWrap, UpArrow } from './style';
-import Arrow from './up-arrow.png';
+import Arrow from 'img/up-arrow.png';
 
 function Contact() {
   const [isHome, setIsHome] = useState('-80px');

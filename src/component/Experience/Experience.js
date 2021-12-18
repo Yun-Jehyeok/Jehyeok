@@ -8,6 +8,14 @@ function Experience() {
       <BorderBottom>
         <div></div>
       </BorderBottom>
+      <div
+        style={{
+          width: '70%',
+          height: '400px',
+          marginTop: '32px',
+          marginLeft: '15%',
+        }}
+      ></div>
     </Container>
   );
 }
