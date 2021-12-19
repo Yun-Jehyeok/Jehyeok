@@ -1,4 +1,6 @@
 import React from 'react';
+
+// style
 import { BorderBottom, Header } from 'component/Style/style';
 import {
   Github,
@@ -9,6 +11,7 @@ import {
   RightSide,
 } from './style';
 
+// image
 import SMission from 'img/s-mission.png';
 import Memories from 'img/memories.png';
 import Capstone from 'img/capstone.png';

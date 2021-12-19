@@ -1,6 +1,10 @@
 import React from 'react';
+
+// style
 import { BorderBottom, Container, Header } from 'component/Style/style';
 import { Background, ImgContainer, SkillList } from './style';
+
+// image
 import HtmlImg from 'img/html-logo.png';
 import CssImg from 'img/css-logo.png';
 import JsImg from 'img/js-logo.png';
@@ -36,7 +40,6 @@ function Skills() {
         <SkillList>
           {logoImg.map((img) => (
             <ImgContainer imgsrc={img.imgSrc}>
-              <div></div>
               <img src={img.imgSrc} />
             </ImgContainer>
           ))}

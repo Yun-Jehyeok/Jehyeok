@@ -1,6 +1,10 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
-import { BorderBottom, Container, Header } from '../Style/style';
+
+// component
+import Navbar from 'component/Navbar/Navbar';
+
+// style
+import { BorderBottom, Container, Header } from 'component/Style/style';
 import { AboutMe, Description } from './style';
 
 function About() {

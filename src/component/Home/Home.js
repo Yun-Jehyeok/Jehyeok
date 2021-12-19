@@ -1,4 +1,6 @@
 import React from 'react';
+
+// style
 import { Button, HomeContainer, Intro, Name } from './style';
 
 function Home() {

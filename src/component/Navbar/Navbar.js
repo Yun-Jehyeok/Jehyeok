@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+
+// style
 import { NavContainer, NavItemBox } from './style';
 
 function Navbar() {
@@ -32,7 +34,6 @@ function Navbar() {
       <NavItemBox>
         <div onClick={onClick}>ABOUT</div>
         <div onClick={onClick}>SKILLS</div>
-        <div onClick={onClick}>EXPERIENCE</div>
         <div onClick={onClick}>PROJECTS</div>
         <div onClick={onClick}>BLOG</div>
         <div onClick={onClick}>CONTACT</div>

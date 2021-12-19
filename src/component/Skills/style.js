@@ -24,6 +24,10 @@ export const ImgContainer = styled.div`
   border-radius: 30px;
   background-color: white;
 
+  &:hover {
+    transform: rotateY(180deg);
+  }
+
   & > img {
     width: 114px;
     height: 114px;

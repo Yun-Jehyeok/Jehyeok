@@ -1,4 +1,6 @@
 import React from 'react';
+
+// style
 import { BorderBottom, Container, Header } from 'component/Style/style';
 
 function Blog() {

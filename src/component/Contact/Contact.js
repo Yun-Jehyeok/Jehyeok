@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
+
+// style
 import { ContactContainer, ContactHeader, ContactWrap, UpArrow } from './style';
+
+// image
 import Arrow from 'img/up-arrow.png';
 
 function Contact() {
