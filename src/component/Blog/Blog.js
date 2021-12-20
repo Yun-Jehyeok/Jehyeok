@@ -59,7 +59,7 @@ function Blog() {
       <BlogList>
         {list.map((blog) => (
           <BlogItem key={blog.id}>
-            <a href={blog.link}>
+            <a href={blog.link} target="_blank" rel="noreferrer">
               <div>
                 <BlogImage src={BlogImg} />
               </div>
