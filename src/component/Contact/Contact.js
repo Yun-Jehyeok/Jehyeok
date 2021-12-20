@@ -46,7 +46,7 @@ function Contact() {
           </h2>
           <h2>
             Email&nbsp;&nbsp;
-            <span style={{ color: '#04c2c9' }}>dbswpgur2@naver.com</span>
+            <span>dbswpgur2@naver.com</span>
           </h2>
         </ContactWrap>
         <UpArrow src={Arrow} onClick={onClick} home={isHome} />

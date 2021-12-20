@@ -27,6 +27,10 @@ export const ContactWrap = styled.div`
   & a {
     color: #04c2c9;
   }
+
+  & span {
+    color: #04c2c9;
+  }
 `;
 
 export const UpArrow = styled.img`
