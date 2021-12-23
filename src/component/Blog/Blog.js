@@ -17,11 +17,11 @@ import {
 const list = [
   {
     id: 0,
-    link: 'https://www.notion.so/Client-3-2ecb7df1a91449c5ba9f93ccb891dd17',
-    title: 'Blog 만들기 - Client 3',
-    date: 'OCTOBER 9, 2020',
+    link: 'https://velog.io/@dbswpgur2/React-JSX',
+    title: 'React, JSX',
+    date: 'December 23, 2021',
     description:
-      '지난 시간에 로그인, 로그아웃 기능까지 구현을 해봤습니다. 이번 시간엔 회원가입, dark / light 모드를 구현하 ...',
+      'JavaScript 언어 기반 Library이다. Javascript 기반 프레임워크나 라이브러리는 여러가지가 있는데 Reac ...',
   },
   {
     id: 1,
