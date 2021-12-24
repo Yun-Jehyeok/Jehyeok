@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Yun-Jehyeok/static/js/main.707cdaf9.chunk.js",
-    "main.js.map": "/Yun-Jehyeok/static/js/main.707cdaf9.chunk.js.map",
+    "main.js": "/Yun-Jehyeok/static/js/main.32648cb9.chunk.js",
+    "main.js.map": "/Yun-Jehyeok/static/js/main.32648cb9.chunk.js.map",
     "runtime-main.js": "/Yun-Jehyeok/static/js/runtime-main.4c7b9ccc.js",
     "runtime-main.js.map": "/Yun-Jehyeok/static/js/runtime-main.4c7b9ccc.js.map",
     "static/js/2.5d40df4a.chunk.js": "/Yun-Jehyeok/static/js/2.5d40df4a.chunk.js",
@@ -9,7 +9,6 @@
     "index.html": "/Yun-Jehyeok/index.html",
     "static/js/2.5d40df4a.chunk.js.LICENSE.txt": "/Yun-Jehyeok/static/js/2.5d40df4a.chunk.js.LICENSE.txt",
     "static/media/background.d6eb1600.jpg": "/Yun-Jehyeok/static/media/background.d6eb1600.jpg",
-    "static/media/blog.0cd9e15d.jpeg": "/Yun-Jehyeok/static/media/blog.0cd9e15d.jpeg",
     "static/media/capstone.f1de7d86.png": "/Yun-Jehyeok/static/media/capstone.f1de7d86.png",
     "static/media/css-logo.4e67641b.png": "/Yun-Jehyeok/static/media/css-logo.4e67641b.png",
     "static/media/html-logo.5f77e90e.png": "/Yun-Jehyeok/static/media/html-logo.5f77e90e.png",
@@ -21,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.4c7b9ccc.js",
     "static/js/2.5d40df4a.chunk.js",
-    "static/js/main.707cdaf9.chunk.js"
+    "static/js/main.32648cb9.chunk.js"
   ]
 }
