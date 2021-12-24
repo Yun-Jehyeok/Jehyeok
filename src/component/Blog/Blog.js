@@ -4,7 +4,7 @@ import React from 'react';
 import { BorderBottom, Container, Header } from 'component/Style/style';
 
 // image
-import BlogImg from 'img/blog.jpeg';
+import BlogImg from 'img/velog.png';
 import {
   BlogContent,
   BlogDate,
@@ -25,11 +25,11 @@ const list = [
   },
   {
     id: 1,
-    link: 'https://www.notion.so/Server-2-48a2a932ba0c4ce18bab75d76f3e5112',
-    title: 'Blog 만들기 - Server 2',
-    date: 'OCTOBER 12, 2020',
+    link: 'https://velog.io/@dbswpgur2/%EC%A7%80%EA%B8%88%EC%9D%98-%EB%82%98%EB%8A%94-%EC%96%B4%EB%94%94%EC%97%90-%EC%9E%88%EB%82%98',
+    title: '지금의 나는 어디에 있나',
+    date: 'December 24, 2021',
     description:
-      '지난 시간에 회원가입 및 모드 변경을 해봤습니다! 추가적으로 비밀번호 변경 페이지가 필요하지만 해당 페이지는 직접 ...',
+      '솔직하게 아직도 왜 내가 컴퓨터공학과에 진학했는지 모른다. 2가지 정도 가설이 있는데 첫번째는 수능 성적에 맞춰 들 ...',
   },
   {
     id: 2,
