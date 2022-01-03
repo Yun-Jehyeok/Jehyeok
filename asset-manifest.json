@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Yun-Jehyeok/static/js/main.32648cb9.chunk.js",
-    "main.js.map": "/Yun-Jehyeok/static/js/main.32648cb9.chunk.js.map",
+    "main.js": "/Yun-Jehyeok/static/js/main.045916c1.chunk.js",
+    "main.js.map": "/Yun-Jehyeok/static/js/main.045916c1.chunk.js.map",
     "runtime-main.js": "/Yun-Jehyeok/static/js/runtime-main.4c7b9ccc.js",
     "runtime-main.js.map": "/Yun-Jehyeok/static/js/runtime-main.4c7b9ccc.js.map",
     "static/js/2.5d40df4a.chunk.js": "/Yun-Jehyeok/static/js/2.5d40df4a.chunk.js",
@@ -15,11 +15,12 @@
     "static/media/js-logo.afc2ed96.png": "/Yun-Jehyeok/static/media/js-logo.afc2ed96.png",
     "static/media/memories.2a5db794.png": "/Yun-Jehyeok/static/media/memories.2a5db794.png",
     "static/media/react-logo.20ec11c4.png": "/Yun-Jehyeok/static/media/react-logo.20ec11c4.png",
-    "static/media/s-mission.205ea1bc.png": "/Yun-Jehyeok/static/media/s-mission.205ea1bc.png"
+    "static/media/s-mission.205ea1bc.png": "/Yun-Jehyeok/static/media/s-mission.205ea1bc.png",
+    "static/media/typescript.17936c69.png": "/Yun-Jehyeok/static/media/typescript.17936c69.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c7b9ccc.js",
     "static/js/2.5d40df4a.chunk.js",
-    "static/js/main.32648cb9.chunk.js"
+    "static/js/main.045916c1.chunk.js"
   ]
 }
