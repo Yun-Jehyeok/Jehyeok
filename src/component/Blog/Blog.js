@@ -33,11 +33,11 @@ const list = [
   },
   {
     id: 2,
-    link: 'https://www.notion.so/Client-4-a4c041f857d7487e915fd99545fbe7ba',
-    title: 'Blog 만들기 - Client 4',
-    date: 'OCTOBER 17, 2020',
+    link: 'https://velog.io/@dbswpgur2/TypeScript-jabl5f0k',
+    title: 'TypeScript?',
+    date: 'January 3, 2022',
     description:
-      '지난 시간에 게시글과 관련된 서버 작업을 해줬습니다! 이번 시간엔 로그인을 유지시키는 기능과 글쓰기에 필요한 편집 ...',
+      'TypeScript? 간단하게 기존 JavaScript에 타입을 붙인 프로그래밍 언어이다. 다만 JavaScript와는 다르게 브 ...',
   },
   {
     id: 3,

@@ -10,6 +10,7 @@ import CssImg from 'img/css-logo.png';
 import JsImg from 'img/js-logo.png';
 import ReactImg from 'img/react-logo.png';
 import NodeImg from 'img/node-logo.jpeg';
+import TypescriptImg from 'img/typescript.png';
 
 const logoImg = [
   {
@@ -23,6 +24,9 @@ const logoImg = [
   },
   {
     imgSrc: ReactImg,
+  },
+  {
+    imgSrc: TypescriptImg,
   },
   {
     imgSrc: NodeImg,
