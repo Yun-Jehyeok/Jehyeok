@@ -41,11 +41,11 @@ const list = [
   },
   {
     id: 3,
-    link: 'https://www.notion.so/Client-5-34636edce1bd41e7a6d3afce82f6f9c3',
-    title: 'Blog 만들기 - Client 5',
-    date: 'OCTOBER 21, 2020',
+    link: 'https://velog.io/@dbswpgur2/%EA%B2%8C%EC%9E%84-%EC%B9%9C%EA%B5%AC-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EA%B8%B0%ED%9A%8D',
+    title: '게임 친구 커뮤니티 만들기- 기획?',
+    date: 'January 4, 2022',
     description:
-      '지난 시간에 로그인 유지 함수와 앞으로 사용할 편집기 세팅을 해줬습니다! 이번 시간엔 게시글과 관련된 클라이언트 작 ...',
+      '만들게 된 계기 MongoDB에 공짜 클러스터 하나가 놀고 있어서 사이드 프로젝트를 하나 해보자!! 라고 생각하게 됐다. 주제 ...',
   },
 ];
 
