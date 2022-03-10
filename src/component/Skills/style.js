@@ -16,6 +16,8 @@ export const SkillList = styled.div`
   margin-top: 64px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 export const ImgContainer = styled.div`
@@ -23,6 +25,7 @@ export const ImgContainer = styled.div`
   height: 114px;
   border-radius: 30px;
   background-color: white;
+  margin-bottom: 32px;
 
   &:hover {
     transform: rotateY(180deg);
