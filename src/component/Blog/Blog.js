@@ -38,15 +38,7 @@ const list = [
     date: 'January 3, 2022',
     description:
       'TypeScript? 간단하게 기존 JavaScript에 타입을 붙인 프로그래밍 언어이다. 다만 JavaScript와는 다르게 브 ...',
-  },
-  {
-    id: 3,
-    link: 'https://velog.io/@dbswpgur2/%EA%B2%8C%EC%9E%84-%EC%B9%9C%EA%B5%AC-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EA%B8%B0%ED%9A%8D',
-    title: '게임 친구 커뮤니티 만들기- 기획?',
-    date: 'January 4, 2022',
-    description:
-      '만들게 된 계기 MongoDB에 공짜 클러스터 하나가 놀고 있어서 사이드 프로젝트를 하나 해보자!! 라고 생각하게 됐다. 주제 ...',
-  },
+  }
 ];
 
 function Blog() {

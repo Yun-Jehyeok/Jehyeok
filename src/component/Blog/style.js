@@ -7,7 +7,7 @@ export const BlogList = styled.div`
 `;
 
 export const BlogItem = styled.div`
-  width: 270px;
+  width: 30%;
 
   & > a {
     text-decoration: none;
