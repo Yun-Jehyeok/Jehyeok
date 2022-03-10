@@ -11,6 +11,7 @@ import JsImg from 'img/js-logo.png';
 import ReactImg from 'img/react-logo.png';
 import NodeImg from 'img/node-logo.jpeg';
 import TypescriptImg from 'img/typescript.png';
+import SalesforceImg from 'img/salesforce.png';
 
 const logoImg = [
   {
@@ -31,6 +32,9 @@ const logoImg = [
   {
     imgSrc: NodeImg,
   },
+  {
+    imgSrc: SalesforceImg
+  }
 ];
 
 function Skills() {
