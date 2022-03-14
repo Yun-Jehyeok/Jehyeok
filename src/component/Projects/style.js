@@ -38,4 +38,8 @@ export const RightSide = styled.div`
 export const Github = styled.a`
   color: black;
   text-decoration: none;
+
+  &:hover {
+    color: #1990ff;
+  }
 `;
